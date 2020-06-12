@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios'
 import styled from "styled-components"
 import './App.css';
+import Luke from '../src/images/Luke.jpg'
 
 const PreviousButton = styled.button``
 const NextButton = styled.button``
@@ -69,7 +70,7 @@ const App = () => {
      <input type="submit" onClick={() => changeCharacterNumber(characterNumber)}/>
      <h1 className="Header">React Wars</h1>
       <div>
-        <img src='./src/images/shutterstock_330346859.jpg'></img>
+        <img src={Luke}></img>
         <br></br>
         Name: {characterData.name}
         <br></br>
