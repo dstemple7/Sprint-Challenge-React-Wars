@@ -69,6 +69,7 @@ const App = () => {
      <input type="submit" onClick={() => changeCharacterNumber(characterNumber)}/>
      <h1 className="Header">React Wars</h1>
       <div>
+        <img src='./src/images/shutterstock_330346859.jpg'></img>
         <br></br>
         Name: {characterData.name}
         <br></br>
